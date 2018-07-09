@@ -1,5 +1,6 @@
 ## General Store
-General Store contains a [mobx](https://github.com/mobxjs/mobx) observable property named data. GS intgrates with [General EndPoint](https://github.com/andrewt3000/generalEndPoint).  
+General Store (GS) implements a [mobx](https://github.com/mobxjs/mobx) store that intgrates with [General EndPoint](https://github.com/andrewt3000/generalEndPoint).  
+GS contains an observable property named data, and several actions which are documented below. GS is injected into data-aware General Components.
 
 When adding a new table add it to the data object in general.js and to the default object in models.js. Add fields and an array reference to child tables.  
 
