@@ -1,0 +1,22 @@
+{
+  "name": "generalstore",
+  "version": "0.0.1",
+  "description": "mobx store integrated with general endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewt3000/generalStore.git"
+  },
+  "author": "andrewt3000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewt3000/generalStore/issues"
+  },
+  "homepage": "https://github.com/andrewt3000/generalStore#readme",
+  "dependencies": {
+    "mobx": "^5.0.3"
+  }
+}

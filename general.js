@@ -1,7 +1,7 @@
 import { observable, computed, action, runInAction, toJS } from "mobx"
 import models from "./models"
-import { callApi } from "../libs/api"
-import { updateListById } from "../libs/utils"
+import { callApi } from "./api"
+import { updateListById } from "./utils"
 
 const defaultState = {
   list: [],
