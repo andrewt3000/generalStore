@@ -6,7 +6,7 @@ When adding a new table to the database:
 1) Add the table to the data object in general.js 
 2) Add the table to the default object in models.js.  
 \*Add reference to child tables from the parent init with \[\].  
-\*init ID with "new" (except for  child tables)  
+\*init ID with "new" (Don't init ID with new for child tables!! It will cause error in General endpoint)  
 \*init variable to null, 
 
 | Method | General EndPoint call | Description | Data changed
